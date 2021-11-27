@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  color: #000f08;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background-image: url(../img/bg-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  color: white;
+  margin-bottom: 100px;
+  text-shadow: 0px 3px 6px black;
+}
+
+header h1 {
+  font-size: 40px;
+  margin-left: 450px;
+  margin-right: 150px;
+  text-align: right;
+
+}
+
+header h3 {
+  font-size: 25px;
+  margin-left: 450px;
+  margin-right: 150px;
+  font-weight: lighter;
+  text-align: right;
+
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #000f08;
+}
+.icono a {
+  fill: white;
+}
+.icono {
+  width: 5%;
+}
+li {
+  float: left;
+  padding-left: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#proxima-charla {
+  background-color: #a4452c;
+  padding: 100px;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#proxima-charla .wrapper {
+  width: 800px;
+  margin: auto;
+}
+
+.wrapper .texto {
+  width: 70%;
+  margin-left: 4%;
+  text-align: left;
+}
+
+.wrapper img {
+  width: 25%;
+}
+
+.wrapper img,
+.texto {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contenedor {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  background: #000f08;
+  color: white;
+  padding: 20px;
+}
+
+footer a {
+  color: #fff;
+}
+
+i {
+  font-size: 30px;
+}
